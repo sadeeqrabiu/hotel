@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/screens/home_screen.dart';
+import 'package:test_app/screens/nav_bar.dart';
 import 'package:test_app/utils%20/colors.dart';
 
 
@@ -99,7 +100,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (context){
-                return HomaScreen();
+                return NavBar();
               },),);
             },
           )
